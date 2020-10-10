@@ -1,0 +1,12 @@
+server:  port: 8081
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/data/batch-server-db
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+    jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    h2:
+    console:
+      enabled: true  application:    name: app1      batch:    lightmin:          application-name: app1            batch:              repository-type: jdbc                     client:              classic:                    auto-registration: true          server:            url: http://localhost:8080            main:    allow-bean-definition-overriding: true
