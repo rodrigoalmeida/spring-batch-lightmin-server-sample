@@ -1,15 +1,21 @@
-# Spring Batch  Lightmin Server Samples
-Sample configuration of batch lightmin server with two clients
+Projeto lightmin: https://github.com/tuxdevelop/spring-batch-lightmin
 
-## Steps:
- - Download and install the database h2: http://www.h2database.com/html/main.html
- - Start server
- - Create dabatase (I used the relative path of the current user '~/data/batch-server-db' so you won't need any changes)
- - Import maven projects
- - start projects
+# Exemplo de configurração do Spring Batch Lightmin Server
+Exemplo de configuração de batch lightmin server com dois aplicações cliente usando auto registro
 
-## Lightmin Server (http://localhost:8080)
-see the apps page for the two registered apps
+## Passos:
+ - Baixe e instale o banco de dados H2: http://www.h2database.com/html/main.html
+ - Crie o banco de dados (Eu usei o caminho relativo do atual usuário do S.O. '~/data/batch-server-db' (Crie o banco no caminho para não precisa de mudanças)
+ - Crie as tabelas do batch lightmin. Use o script do link: https://htmlpreview.github.io/?https://github.com/tuxdevelop/spring-batch-lightmin/blob/2.1.x/spring-batch-lightmin-documentation/src/main/doc/spring_batch_lightmin.html#_jobconfiguration_repository
+ - Importe os projetos maven para sua IDE
+ - Execute o server e depois os clientes 1 e 2
+
+## Lightmin Server 
+ - Acesso a página inicial do lightmin sever em: http://localhost:8080)
+
+## Aplicações 1  e 2
+ - Ao iniciar as aplicação elas se registrarão no lightmin server e executarão os jobs automaticamente, isso permitirá que você acompanhem o registro do processamentos dos jobs usando a interface visual do batch lightmin
+
  
 
 
