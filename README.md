@@ -1,6 +1,6 @@
 Projeto lightmin: (https://github.com/tuxdevelop/spring-batch-lightmin)
 
-# Exemplo de configurração do Spring Batch Lightmin Server
+# Configuração do Spring Batch Lightmin Server
 - Exemplo de configuração de batch lightmin server com duas aplicações cliente usando auto registro
 
 ## Passos:
